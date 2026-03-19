@@ -1,0 +1,3 @@
+[submodule "Embedded-Systems/Training-Camp/using_tivac/lm4tools"]
+	path = Embedded-Systems/Training-Camp/using_tivac/lm4tools
+	url = https://github.com/utzig/lm4tools
