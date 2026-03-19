@@ -13,11 +13,10 @@ current layout
 │   ├── Training-Camp
 │   └── ref
 ├── README.md
-├── Tools
-│   ├── Debugging
-│   ├── GIT
-│   └── Github
-└── using_ceedling
+└── Tools
+    ├── Debugging
+    ├── GIT
+    └── Github
 
 ```
 
