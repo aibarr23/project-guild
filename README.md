@@ -5,6 +5,21 @@
 This is where you go to put your skills to the tests, the skills you need for practical  scenarios. Not a place to test your fundamentals, there are plentiful sites and source for that.
 Library for user to test themselves within projects, scenarios, and situations within various levels of difficulty.
 
+current layout
+```bash
+.
+├── Embedded-Systems
+│   ├── Scenarios
+│   ├── Training-Camp
+│   └── ref
+├── README.md
+├── Tools
+│   ├── Debugging
+│   ├── GIT
+│   └── Github
+└── using_ceedling
+
+```
 
 ## Structure...
 
