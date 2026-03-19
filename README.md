@@ -8,7 +8,7 @@ Library for user to test themselves within projects, scenarios, and situations w
 
 ## Structure...
 
-current idea?
+current idea example?
 
 ```bash
 |
@@ -27,6 +27,7 @@ current idea?
 │       ├──Entry
 │       ├──Junior
 │       ├──Mid
-│       └──Senior
+|       ├──Senior
+│       └──Legendary
 └─README.md
 ```
