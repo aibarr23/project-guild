@@ -8,22 +8,25 @@ Library for user to test themselves within projects, scenarios, and situations w
 
 ## Structure...
 
-```
+current idea?
+
+```bash
 |
-|--TOOLS
-|   |--GIT
-|   |--
-|--Embedded Systems
-|   |--Training Camp
-|       |--Basics
-|       |--Firmware
-|       |--Robotics
-|       |--Automotive
-|   |--Scenarios
-|       |--Intro
-|       |--Entry
-|       |--Junior
-|       |--Mid
-|       |--Senior
-|---README.md
+├───TOOLS
+|   ├───GIT
+|   └──Debugging
+├──Embedded Systems
+│   └──SRC
+│   └──Training Camp
+│   │   ├──Basics
+│   │   ├──Firmware
+│   │   ├──Robotics
+│   │   ├──Automotive
+│   └──Scenarios
+│       ├──Intro
+│       ├──Entry
+│       ├──Junior
+│       ├──Mid
+│       └──Senior
+└─README.md
 ```
