@@ -9,12 +9,21 @@ Library for user to test themselves within projects, scenarios, and situations w
 ## Structure...
 
 ```
-role
 |
-+--Embedded Systems
-|  |--Intro
-|  |--Entry
-|  |--Junior
-|  |--Mid
-|  |--Senior
+|--TOOLS
+|   |--GIT
+|   |--
+|--Embedded Systems
+|   |--Training Camp
+|       |--Basics
+|       |--Firmware
+|       |--Robotics
+|       |--Automotive
+|   |--Scenarios
+|       |--Intro
+|       |--Entry
+|       |--Junior
+|       |--Mid
+|       |--Senior
+|---README.md
 ```
