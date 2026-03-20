@@ -53,3 +53,6 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# folders
+Embedded-Systems/Training-Camp/using_tivac/tivaware/*
