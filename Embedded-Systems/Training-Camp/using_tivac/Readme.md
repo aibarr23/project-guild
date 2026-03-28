@@ -31,3 +31,29 @@ NOTE: if the last command does not work try bellow instead
 and the link for more information on how tofix it
 ```
 sudo env PATH=$PATH make flash
+
+# IMPORTANT connecting devices ICDI from wsl with windows
+
+## try this when Unable to find any ICDI devices
+
+list usb devices
+```powershell
+usbipd list
+```
+bind and attach device
+```powershell
+usbipd bind --busid <busid>
+usbipd attach --wsl --busid <busid>
+```
+verify in WSL
+```bash
+lsusb
+```
+
+### not sure what it is for need looking into
+
+kernel messages when plugging in the devices
+for logging/monitor
+```bash
+dmesg -w
+```
