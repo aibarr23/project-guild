@@ -40,7 +40,7 @@ list usb devices
 ```powershell
 usbipd list
 ```
-bind and attach device
+bind(share) and attach device
 ```powershell
 usbipd bind --busid <busid>
 usbipd attach --wsl --busid <busid>
