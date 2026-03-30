@@ -1,15 +1,14 @@
-
+static int counter = 0;
 
 int main(void){
-    int counter = 0;
-    while(counter < 21){
-        ++counter;
-        if((counter & 1) != 0){
-            /* do something when counter is odd*/
-        }
-        else{
-            /* do something when the counter is even*/
-        }
+    int volatile *p_int;
+    p_int = &counter;
+    while(*p_int < 21){
+        ++(*p_int);
     }
+
+    p_int = (int *)0x20000002U;
+    *p_int = (int)0xDEADBEEF;
+    
     return 0;
 }
