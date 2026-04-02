@@ -1,5 +1,16 @@
 # Debugging in Embedded sytems
 
+## Key Debugging Techniques
+
+### In-Circuit Debugging: 
+- Using tools to pause and control the CPU directly via JTAG/SWD, allowing register and memory inspection.
+### Printf Debugging: 
+- Sending debug messages via UART or ITM (Instrumentation Trace Macrocell) to a terminal, useful when hardware control is not possible.
+### Runtime Monitoring: 
+- Using tools like Scrutiny or specialized IDE debuggers to plot variables and monitor system health in real-time.
+### Hardware Trace: 
+- Advanced debugging that records CPU execution flow without stopping the processor.### In-Circuit Debuggin
+
 ## Types of debuggers that are available
 
 ### General Purpose & CLI Debuggers
