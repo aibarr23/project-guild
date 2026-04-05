@@ -29,17 +29,19 @@ sudo make flash
 
 NOTE: if the last command does not work try bellow instead
 and the link for more information on how tofix it
-```
+```bash
 sudo env PATH=$PATH make flash
-
+```
 # IMPORTANT connecting devices ICDI from wsl with windows
 
 ## try this when Unable to find any ICDI devices
 
 list usb devices
+
 ```powershell
 usbipd list
 ```
+
 bind(share) and attach device
 ```powershell
 usbipd bind --busid <busid>
