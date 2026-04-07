@@ -6,17 +6,28 @@ This is where you go to put your skills to the tests, the skills you need for pr
 Library for user to test themselves within projects, scenarios, and situations within various levels of difficulty.
 
 current layout
-```bash
-.
-├── Embedded-Systems
-│   ├── Scenarios
-│   ├── Training-Camp
-│   └── ref
-├── README.md
-└── Tools
-    ├── Debugging
-    ├── GIT
-    └── Github
+
+Starts with Career focuse, then career path
+
+example
+```
+Embedded Systems
+    Department
+        Automotive
+        Medical
+        Aerospace
+        Defence / Military
+        R&D
+    Path
+        Embedded Systems Engineer
+        Embedded Software Engineer
+        Firmware Engineer
+        Hardware Engineer
+        System Integrator
+        Application Engineer
+    Training Camp
+    Tools
+    Scenarios
 
 ```
 
