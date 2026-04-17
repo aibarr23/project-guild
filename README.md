@@ -7,9 +7,10 @@ Library for user to test themselves within projects, scenarios, and situations w
 
 current layout
 
-Starts with Career focuse, then career path
+Starts with Career focus, then career path
 
 example
+
 ```
 Embedded Systems
     Department
